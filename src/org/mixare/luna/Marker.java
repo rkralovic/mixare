@@ -16,15 +16,15 @@
  * You should have received a copy of the GNU General Public License along with 
  * this program. If not, see <http://www.gnu.org/licenses/>
  */
-package org.mixare;
+package org.mixare.luna;
 
-import org.mixare.gui.PaintScreen;
-import org.mixare.gui.ScreenObj;
-import org.mixare.gui.ScreenLine;
-import org.mixare.gui.TextObj;
-import org.mixare.reality.PhysicalPlace;
-import org.mixare.render.Camera;
-import org.mixare.render.MixVector;
+import org.mixare.luna.gui.PaintScreen;
+import org.mixare.luna.gui.ScreenLine;
+import org.mixare.luna.gui.ScreenObj;
+import org.mixare.luna.gui.TextObj;
+import org.mixare.luna.reality.PhysicalPlace;
+import org.mixare.luna.render.Camera;
+import org.mixare.luna.render.MixVector;
 
 import android.graphics.Color;
 import android.location.Location;

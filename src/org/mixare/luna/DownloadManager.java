@@ -16,7 +16,7 @@
  * You should have received a copy of the GNU General Public License along with 
  * this program. If not, see <http://www.gnu.org/licenses/>
  */
-package org.mixare;
+package org.mixare.luna;
 
 import java.io.InputStream;
 import java.io.StringReader;
@@ -27,8 +27,8 @@ import javax.xml.parsers.DocumentBuilderFactory;
 
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.mixare.data.Json;
-import org.mixare.data.XMLHandler;
+import org.mixare.luna.data.Json;
+import org.mixare.luna.data.XMLHandler;
 import org.w3c.dom.Document;
 import org.xml.sax.InputSource;
 

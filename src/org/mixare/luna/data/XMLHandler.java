@@ -1,8 +1,8 @@
 
-package org.mixare.data;
+package org.mixare.luna.data;
 
-import org.mixare.MixView;
-import org.mixare.reality.PhysicalPlace;
+import org.mixare.luna.MixView;
+import org.mixare.luna.reality.PhysicalPlace;
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 import org.w3c.dom.NamedNodeMap;

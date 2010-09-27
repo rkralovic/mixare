@@ -16,7 +16,7 @@
  * You should have received a copy of the GNU General Public License along with 
  * this program. If not, see <http://www.gnu.org/licenses/>
  */
-package org.mixare;
+package org.mixare.luna;
 
 import static android.hardware.SensorManager.SENSOR_DELAY_GAME;
 
@@ -25,9 +25,9 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Vector;
 
-import org.mixare.R.drawable;
-import org.mixare.gui.PaintScreen;
-import org.mixare.render.Matrix;
+import org.mixare.luna.R.drawable;
+import org.mixare.luna.gui.PaintScreen;
+import org.mixare.luna.render.Matrix;
 
 import android.app.Activity;
 import android.app.AlertDialog;

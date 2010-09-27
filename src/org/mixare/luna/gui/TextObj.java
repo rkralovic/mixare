@@ -16,7 +16,7 @@
  * You should have received a copy of the GNU General Public License along with 
  * this program. If not, see <http://www.gnu.org/licenses/>
  */
-package org.mixare.gui;
+package org.mixare.luna.gui;
 
 import java.text.BreakIterator;
 import java.util.ArrayList;

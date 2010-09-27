@@ -1,8 +1,10 @@
-package org.mixare;
+package org.mixare.luna;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Vector;
+
+import org.mixare.luna.R;
 
 import android.app.SearchManager;
 import android.content.Context;

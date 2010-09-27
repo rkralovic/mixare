@@ -16,12 +16,12 @@
 * You should have received a copy of the GNU General Public License along with
 * this program. If not, see <http://www.gnu.org/licenses/>
 */
-package org.mixare.data;
+package org.mixare.luna.data;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
-import org.mixare.MixView;
+import org.mixare.luna.MixView;
 
 import android.util.Log;
 

@@ -16,7 +16,7 @@
  * You should have received a copy of the GNU General Public License along with 
  * this program. If not, see <http://www.gnu.org/licenses/>
  */
-package org.mixare;
+package org.mixare.luna;
 
 import java.io.BufferedReader;
 import java.io.ByteArrayInputStream;
@@ -31,7 +31,7 @@ import java.util.Date;
 import java.util.HashMap;
 import java.util.Random;
 
-import org.mixare.render.Matrix;
+import org.mixare.luna.render.Matrix;
 
 import android.app.Activity;
 import android.app.Dialog;

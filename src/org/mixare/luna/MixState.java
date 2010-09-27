@@ -16,10 +16,10 @@
  * You should have received a copy of the GNU General Public License along with 
  * this program. If not, see <http://www.gnu.org/licenses/>
  */
-package org.mixare;
+package org.mixare.luna;
 
-import org.mixare.render.Matrix;
-import org.mixare.render.MixVector;
+import org.mixare.luna.render.Matrix;
+import org.mixare.luna.render.MixVector;
 
 public class MixState {
 	public static int NOT_STARTED = 0; 

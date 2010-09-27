@@ -16,10 +16,10 @@
  * You should have received a copy of the GNU General Public License along with 
  * this program. If not, see <http://www.gnu.org/licenses/>
  */
-package org.mixare.gui;
+package org.mixare.luna.gui;
 
-import org.mixare.DataView;
-import org.mixare.Marker;
+import org.mixare.luna.DataView;
+import org.mixare.luna.Marker;
 
 import android.graphics.Color;
 

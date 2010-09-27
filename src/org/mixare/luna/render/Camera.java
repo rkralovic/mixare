@@ -16,7 +16,7 @@
  * You should have received a copy of the GNU General Public License along with 
  * this program. If not, see <http://www.gnu.org/licenses/>
  */
-package org.mixare.render;
+package org.mixare.luna.render;
 
 public class Camera {
 	public static float DEFAULT_VIEW_ANGLE = (float) Math.toRadians(45);

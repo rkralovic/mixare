@@ -1,10 +1,10 @@
-package org.mixare.data;
+package org.mixare.luna.data;
 
 import java.util.ArrayList;
 
 import org.json.JSONObject;
-import org.mixare.Marker;
-import org.mixare.reality.PhysicalPlace;
+import org.mixare.luna.Marker;
+import org.mixare.luna.reality.PhysicalPlace;
 
 public class DataHandler {
 
