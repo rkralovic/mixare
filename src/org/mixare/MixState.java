@@ -20,6 +20,8 @@ package org.mixare;
 
 import org.mixare.render.Matrix;
 import org.mixare.render.MixVector;
+import android.content.Intent;
+import android.net.Uri;
 
 public class MixState {
 
@@ -40,8 +42,11 @@ public class MixState {
 		if (onPress != null && onPress.startsWith("webpage")) {
 			try {
 				String webpage = MixUtils.parseAction(onPress);
-				this.detailsView = true;
-				ctx.loadMixViewWebPage(webpage);
+				// this.detailsView = true;
+				// ctx.loadMixViewWebPage(webpage);
+                                Intent i = new Intent(Intent.ACTION_VIEW);
+                                i.setData(Uri.parse(webpage));
+                                ctx.startActivity(i);
 			} catch (Exception ex) {
 			}
 		} 

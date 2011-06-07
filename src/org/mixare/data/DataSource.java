@@ -41,7 +41,7 @@ public class DataSource {
 	public enum DATAFORMAT { WIKIPEDIA, BUZZ, TWITTER, OSM, MIXARE};	
 
 	/** default URL */
-	private static final String WIKI_BASE_URL = "http://ws.geonames.org/findNearbyWikipediaJSON";
+	private static final String WIKI_BASE_URL = "http://api.geonames.org/findNearbyWikipediaJSON";
 	//private static final String WIKI_BASE_URL =	"file:///sdcard/wiki.json";
 	private static final String TWITTER_BASE_URL = "http://search.twitter.com/search.json";
 	private static final String BUZZ_BASE_URL = "https://www.googleapis.com/buzz/v1/activities/search?alt=json&max-results=20";
@@ -118,7 +118,8 @@ public class DataSource {
 				"&lng=" + lon + 
 				"&radius="+ radius +
 				"&maxRows=50" +
-				"&lang=" + locale; 
+				"&lang=" + locale + 
+				"&username=demo"; 
 			break;
 			
 			case BUZZ: 
